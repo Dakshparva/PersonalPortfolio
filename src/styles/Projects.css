@@ -1,10 +1,11 @@
 .projects {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+ 
   }
   .projects .projectTitle {
     text-align: center;
@@ -17,7 +18,7 @@
     width: 70vw;
     height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     place-items: center;
   }
   
@@ -27,7 +28,7 @@
     border-radius: 15px;
     width: 300px;
     height: 300px;
-    margin: 40px;
+    margin: 50px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
   }

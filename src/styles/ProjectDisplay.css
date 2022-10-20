@@ -1,3 +1,5 @@
+@media only screen and (max-width: 600px) {
+
 .project {
     width: 100%;
     height: calc(100vh - 100px);
@@ -8,9 +10,9 @@
   }
   
   .project h1 {
-    margin-top: 50px;
+    margin-top: 100px;
     color: #3e497a;
-    font-size: 35px;
+    font-size: 45px;
   }
   .project img {
     width: 700px;
@@ -18,7 +20,7 @@
   }
   
   .project p {
-    font-size: 40px;
+    font-size: 50px;
     color: #3e497a;
   }
   
@@ -26,3 +28,4 @@
     font-size: 60px;
     color: #3e497a;
   }
+}
