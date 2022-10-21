@@ -18,8 +18,9 @@
     left: 200px;
     margin-top: 100px;
   }
-
-
+.about p{
+  margin-top: 10px;
+}
   
   .about h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -106,14 +107,14 @@
     }
   }
   
-  .skills .list {
+  /* .skills .list {
    list-style: none;
     width: 70%;
   }
   
   .list span {
     font-size: 30px;
-  }
+  } */
   
   @media only screen and (max-width: 600px) {
    .about h2  {
